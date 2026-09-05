@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-peppol-validator"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for Peppol BIS Billing 3.0 & EN 16931 E-Invoice Engine"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["peppol","en16931","e-invoicing","ubl-2-1","factur-x","zugferd","bis-billing-3","electronic-invoicing","un-cefact-cii"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/peppol-validator"
+Repository = "https://github.com/stanzaapi/peppol-validator-python"
